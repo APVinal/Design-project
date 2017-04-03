@@ -1,0 +1,125 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 80px;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	padding: 10px;
+	background-color: #EEEEEE;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.nav-link {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+}
+
+.link {
+	font-size: 18px;
+	padding: 0 6px;
+}
+
+.logo {
+	display: inline-block;
+	border-radius: 100%;
+	font-weight: 800;
+}
+
+.logo h1 {
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+.search-bar {
+	margin-bottom: 30px;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+
+.search-bar input {
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-right: 5px;
+	padding-left: 8px;
+	font-size: 17px;
+	line-height: 30px;
+	border: 1px solid #DDDDDD;
+	height: 30px;
+	border-radius: 3px;
+	width: 400px;
+
+}
+
+.search-bar .search-button {
+	width: 37px;
+	height: auto;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	padding-right: 6px;
+	padding-left: 6px;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	font-size: 17px;
+}
+
+.search-button {
+	vertical-align: bottom;
+}
+
+.page {
+	display: inline-block;
+	font-size: 0;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	margin-bottom: 30px;
+}
+
+.page-button {
+	display: inline-block;
+	border-radius: 3px;
+	font-size: 16px;
+	padding: 8px 15px;
+}
+
+.page-list {
+	font-size: 16px;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	padding: 0 30px;
+	padding: 8px 25px;
+}
+
+ul {
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.listing-title {
+	font-weight: bold;
+	font-size: 17px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.list-date, .list-loc {
+	color: #999;
+}
